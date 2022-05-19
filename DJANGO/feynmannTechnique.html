@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeynManning This shit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script>document.addEventListener('DOMContentLoaded', () => {
+
+        })</script>
+    <style>
+        body {
+            background-color: rgb(118, 0, 122);
+            margin: auto 20px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+
+        code {
+            color: rgb(0, 255, 0);
+            background-color: black;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>DJANGO!</h1>
+    <div>This is what I learned:
+
+        <p>Django is a web framework that allows you to makes web applications.</p>
+
+        <p>You install it using : <code>pip install django</code></p>
+
+
+        <p>You use the the following command to create a new django website project:
+            <code>django-admin startproject 'name_of_project'</code>
+        </p>
+
+        <p>A directory is created with that same name that you can rename and another directory under it that also has
+            the
+            same name but should not be renamed.</p>
+
+        <p>Let's figure out what the newly created project fils are:
+        </p>
+        <br>
+        <ul>
+            <li>The outer mysite/ root directory is a container for your project. Its name doesn’t matter to Django;
+                you can
+                rename it to anything you like.
+                manage.py: A command-line utility that lets you interact with this Django project in various ways. You
+                can read
+                all the details about manage.py in django-admin and manage.py.</li>
+
+            <li>The inner mysite/ directory is the actual Python package for your project. Its name is the Python
+                package name
+                you’ll need to use to import anything inside it (e.g. mysite.urls).</li>
+
+            <li>mysite/__init__.py: An empty file that tells Python that this directory should be considered a Python
+                package.
+                If you’re a Python beginner, read more about packages in the official Python docs.</li>
+
+            <li>mysite/settings.py: Settings/configuration for this Django project. Django settings will tell you all
+                about how
+                settings work.</li>
+
+            <li>mysite/urls.py: The URL declarations for this Django project; a “table of contents” of your
+                Django-powered
+                site. You can read more about URLs in URL dispatcher.</li>
+
+            <li>mysite/asgi.py: An entry-point for ASGI-compatible web servers to serve your project. See How to deploy
+                with
+                ASGI for more details.</li>
+
+            <li>mysite/wsgi.py: An entry-point for WSGI-compatible web servers to serve your project. See How to deploy
+                with
+                WSGI for more details.</li>
+        </ul>
+
+        <p>We can run the debugging server with the following command:
+            <code>python manage.py runserver</code>
+        </p>
+        <p>To create your first app in django, you cd into the out directory of your newly created project and use this
+            command:
+            <code>p ython manage.py startapp 'name_of_app'</code>
+        </p>
+    </div>
+</body>
+
+</html>
